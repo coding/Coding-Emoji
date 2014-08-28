@@ -64,14 +64,30 @@ h2{
 	margin: 0 auto;
 }
 .emojiList li{
-	width: 14%;
+	width: 12%;
 	margin: 1%;
+	padding: 1%;
 	float: left;
 	background: #f8f6f2;
+	border-radius: 5px;
 }
 .emojiList li img{
 	width: 100%;
 }
 .emojiList li p{
 	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.footer{
+	text-align: center;
+	margin: 40px 0;
+	font-size: 14px;
+	color: #666;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+.footer a{
+	color: #777; 
+	text-decoration: none;
 }
