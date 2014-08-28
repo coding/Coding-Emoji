@@ -59,6 +59,10 @@ h2{
 	text-indent: 32px;
 	margin-bottom: 10px;
 }
+.emojiList{
+	width: 1200px;
+	margin: 0 auto;
+}
 .emojiList li{
 	width: 14%;
 	margin: 1%;
