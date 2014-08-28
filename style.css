@@ -1,0 +1,73 @@
+body {
+font-family: '微软雅黑','Helvetica Neue',sans-serif,SimHei;
+}
+.fl{
+	float: left;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+h1{
+	font-size: 36px;
+	margin: 40px 0;
+	text-align: center;
+}
+h2{
+	font-size: 36px;
+	margin: 40px 0;
+	text-align: center;
+}
+.download {
+	margin-bottom: 40px;
+}
+.button{
+	display: inline-block;
+	padding: 10px 20px;
+	line-height: 36px;
+	background: #59d597;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-right: 20px;
+
+}
+.button.fork{
+	background: #4db0f4;
+}
+.button:hover{
+	background: #2bbb73;
+}
+.button.fork:hover{
+	background: #3a99db;
+}
+
+.download{
+	text-align: center;
+}
+.intro{
+	width: 800px;
+	margin: 0 auto;
+	padding-left: 180px;
+	background: url(onion-monkey-emoji/onion-monkey-emoji_23.png) no-repeat;
+	background-size: 150px;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	color: #333;
+}
+.intro p{
+	text-indent: 32px;
+	margin-bottom: 10px;
+}
+.emojiList li{
+	width: 14%;
+	margin: 1%;
+	float: left;
+	background: #f8f6f2;
+}
+.emojiList li img{
+	width: 100%;
+}
+.emojiList li p{
+	text-align: center;
+}
