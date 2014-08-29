@@ -34,11 +34,17 @@ h2{
 .button.fork{
 	background: #4db0f4;
 }
+.button.qq{
+	background: #f75288;
+}
 .button:hover{
 	background: #2bbb73;
 }
 .button.fork:hover{
 	background: #3a99db;
+}
+.button.qq:hover{
+	background: #e6336e;
 }
 
 .download{
